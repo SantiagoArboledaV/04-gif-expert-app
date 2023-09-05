@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply w-48 h-64 shadow-lg border rounded-lg flex-none;
+}
+
+.card:nth-child(even) {
+  @apply bg-white text-tertiary;
+}
+.card:nth-child(odd) {
+  @apply bg-secondary text-white;
+}
